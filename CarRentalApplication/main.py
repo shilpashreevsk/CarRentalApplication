@@ -39,8 +39,7 @@ def upload():
   elif (operation_type == "5"):
     return render_template('carreturn.html')
   elif (operation_type=="6"):
-  
-  return render_template('report.html', res=result)
+    return render_template('report.html', res=result)
 
 
 @app.route('/selectcustomer', methods=['POST'])
